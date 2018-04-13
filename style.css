@@ -11,7 +11,7 @@ input, button {
   font-weight: 700;
 }
 
-.main-div, .loggedin-div {
+.main-div, .home-div, .loggedin-div {
   width: 20%;
   margin: 0px auto;
   margin-top: 150px;
@@ -19,7 +19,7 @@ input, button {
   display: none;
 }
 
-.main-div input {
+.main-div, .home-div input {
   display: block;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -33,11 +33,11 @@ input, button {
   -moz-transition: 0.3s;
 }
 
-.main-div input:focus {
+.main-div, .home-div input:focus {
   border: 1px solid #777;
 }
 
-.main-div button, .loggedin-div button {
+.main-div button, .home-div button, .loggedin-div button {
   background: #5d8ffc;
   color: #fff;
   border: 1px solid #5d8ffc;
@@ -50,7 +50,7 @@ input, button {
   -moz-transition: 0.3s;
 }
 
-.main-div button:hover, .loggedin-div button:hover {
+.main-div button:hover, .home-div button:hover, .loggedin-div button:hover {
   background: #fff;
   color: #5d8ffc;
   border: 1px solid #5d8ffc;
